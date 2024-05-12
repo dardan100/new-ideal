@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-// import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 
@@ -40,7 +40,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          {/* <div className={styles["footer-content"]}>
+          <div className={styles["footer-content"]}>
             <h3>Follow Us</h3>
             <ul className={styles["social-icons"]}>
               <li>
@@ -59,7 +59,7 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-          </div> */}
+          </div>
         </div>
         <div className={styles["bottom-bar"]}>
           <p>
