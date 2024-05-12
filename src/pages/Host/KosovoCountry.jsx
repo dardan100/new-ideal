@@ -19,7 +19,7 @@ export default function KosovCountry() {
               <Link to="/project/projectRoads">
                 <img src={img1} alt="Road" />
                 <div className={styles.content}>
-                  <h1>Road</h1>
+                  <h1>Project Stacion</h1>
                 </div>
               </Link>
             </div>
@@ -41,7 +41,7 @@ export default function KosovCountry() {
               <Link to="/project/projectStacion">
                 <img src={img3} alt="Project Stacion" />
                 <div className={styles.content}>
-                  <h1 className={styles.spacing}>Project Stacion</h1>
+                  <h1 className={styles.spacing}>Road</h1>
                 </div>
               </Link>
             </div>
