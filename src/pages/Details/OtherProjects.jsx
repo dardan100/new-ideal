@@ -3,6 +3,7 @@ import { useState } from "react";
 import img1 from "../../images/T2.jpg";
 import img2 from "../../images/sc1.jpeg";
 import img3 from "../../images/roadPic2.jpg";
+import img4 from "../../images/bridge.webp";
 
 import styles from "./OtherProjects.module.css";
 import Footer from "../../components/Footer";
@@ -15,9 +16,10 @@ import { Link } from "react-router-dom";
 
 export default function OtherProjects() {
   const [items] = useState([
-    { name1: "Switzerland", image1: `${img1}`, des1: "lorem" },
-    { name2: "Finland", image2: `${img2}`, des2: "lorem ipsum" },
-    { name3: "Iceland", image3: `${img3}`, des3: "lorem ipsum 25" },
+    { name1: "Kosovo", image1: `${img1}`, des1: "Stacion" },
+    { name2: "Germany", image2: `${img2}`, des2: "BadTotz" },
+    { name3: "Kosovo", image3: `${img3}`, des3: "Road" },
+    { name3: "Pakistan", image3: `${img3}`, des3: "Bridge" },
   ]);
 
   const NextArrow = (props) => {

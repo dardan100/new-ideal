@@ -17,10 +17,9 @@ export default function KosovCountry() {
           <div className={`${styles.wrapper} ${styles.fourgridcells}`}>
             <div className={styles.image}>
               <Link to="/project/projectRoads">
-                <img src={img1} alt="Northern Winter Sky" />
+                <img src={img3} alt="Road" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Road</h1>
                 </div>
               </Link>
             </div>
@@ -31,8 +30,7 @@ export default function KosovCountry() {
               <Link to="/project/projectRenderat">
                 <img src={img2} alt="Shining Stars " />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Motorway</h1>
                 </div>
               </Link>
             </div>
@@ -40,56 +38,10 @@ export default function KosovCountry() {
 
           <div className={`${styles.wrapper} ${styles.fourgridcells}`}>
             <div className={styles.image}>
-              <Link>
-                <img src={img3} alt="A River Flowing " />
+              <Link to="/project/projectStacion">
+                <img src={img1} alt="Project Stacion" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-              </Link>
-            </div>
-          </div>
-
-          <div className={`${styles.wrapper} ${styles.wideimage}`}>
-            <div className={styles.image}>
-              <Link>
-                <img
-                  src="https://images.pexels.com/photos/4101555/pexels-photo-4101555.jpeg"
-                  alt="A Clean Mountain Lake"
-                />
-                <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-              </Link>
-            </div>
-          </div>
-
-          <div className={`${styles.wrapper} ${styles.wideimage}`}>
-            <div className={styles.image}>
-              <Link>
-                <img
-                  src="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg"
-                  alt="A Clean Mountain Lake"
-                />
-                <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-              </Link>
-            </div>
-          </div>
-
-          <div className={`${styles.wrapper} ${styles.fourgridcells}`}>
-            <div className={styles.image}>
-              <Link>
-                <img
-                  src="https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg"
-                  alt="Shining Stars "
-                />
-                <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Project Stacion</h1>
                 </div>
               </Link>
             </div>

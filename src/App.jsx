@@ -1,6 +1,5 @@
 import {
-  // createBrowserRouter,
-  createHashRouter,
+  createBrowserRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -15,7 +14,7 @@ import RootLayout from "./layouts/RootLayout";
 import KosovoCountry from "./pages/Host/KosovoCountry";
 import GermanyCountry from "./pages/Host/GermanyCountry";
 import ProjectRoads from "./pages/Details/ProjectRoads";
-import ProjectJail from "./pages/Details/ProjectJail";
+
 import ProjectStacion from "./pages/Details/ProjectStacion";
 import ProjectBridge from "./pages/Details/ProjectBridge";
 import ProjectBadTotz from "./pages/Details/ProjectBadTotz";
@@ -23,7 +22,7 @@ import ProjectRenderat from "./pages/Details/ProjectRenderat";
 import ProjectInfrastructure from "./pages/Details/ProjectInfrastructure";
 import PageNotFound from "./pages/PageNotFound";
 
-const router = createHashRouter(
+const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path="/" element={<Home />} />
@@ -31,7 +30,7 @@ const router = createHashRouter(
         <Route path="project" element={<RootLayout />} />
         <Route index element={<Project />} />
         <Route path="projectRoads" element={<ProjectRoads />} />
-        <Route path="projectJail" element={<ProjectJail />} />
+
         <Route path="projectStacion" element={<ProjectStacion />} />
         <Route path="projectBridge" element={<ProjectBridge />} />
         <Route path="projectBadTotz" element={<ProjectBadTotz />} />

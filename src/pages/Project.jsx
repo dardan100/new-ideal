@@ -27,19 +27,6 @@ export default function Project() {
                 <img src={img2} alt="Northern Winter Sky Image" />
                 <div className={styles.content}>
                   <h1>Road</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-              </Link>
-            </div>
-          </div>
-
-          <div className={`${styles.wrapper} ${styles.wideimage}`}>
-            <div className={styles.image}>
-              <Link to="projectJail">
-                <img src={img1} alt="Shining Stars Image" />
-                <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
                 </div>
               </Link>
             </div>
@@ -50,8 +37,7 @@ export default function Project() {
               <Link to="projectStacion">
                 <img src={img1} alt="Stacion at Sveqan" />
                 <div className={styles.content}>
-                  <h1>dawSSSSSSSSSS</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Stacion at Sveqan</h1>
                 </div>
               </Link>
             </div>
@@ -60,10 +46,9 @@ export default function Project() {
           <div className={`${styles.wrapper} ${styles.wideimage}`}>
             <div className={styles.image}>
               <Link to="projectInfrastructure">
-                <img src={img3} alt="A cloudy Mountain Image" />
+                <img src={img3} alt="Infrastucture" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Infrastructure</h1>
                 </div>
               </Link>
             </div>
@@ -72,14 +57,9 @@ export default function Project() {
           <div className={`${styles.wrapper} ${styles.wideimage}`}>
             <div className={styles.image}>
               <Link to="projectBridge">
-                <img
-                  // src="https://images.pexels.com/photos/4101555/pexels-photo-4101555.jpeg"
-                  src={img4}
-                  alt="Pakistan Bridge"
-                />
+                <img src={img4} alt="Pakistan Bridge" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Pakistan Bridge</h1>
                 </div>
               </Link>
             </div>
@@ -88,14 +68,9 @@ export default function Project() {
           <div className={`${styles.wrapper} ${styles.wideimage}`}>
             <div className={styles.image}>
               <Link to="projectBadTotz">
-                <img
-                  // src="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg"
-                  src={img5}
-                  alt=""
-                />
+                <img src={img5} alt="" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Project Bad Totz</h1>
                 </div>
               </Link>
             </div>
@@ -104,10 +79,9 @@ export default function Project() {
           <div className={`${styles.wrapper} ${styles.fourgridcells}`}>
             <div className={styles.image}>
               <Link to="projectRenderat">
-                <img src={img6} alt="Shining Stars Image" />
+                <img src={img6} alt="Motorway" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Motorway</h1>
                 </div>
               </Link>
             </div>

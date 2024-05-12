@@ -41,24 +41,7 @@ export default function JailSlider({ slides }) {
       <div style={slideStylesWidthBackground}></div>
 
       <div className={styles.details}>
-        <h1>Title</h1>
-        <p>
-          The Villa Camélia is a high-end private residence situated in the
-          Riviera Golf Beverly Hills neighbourhood, on a plot with a gradient of
-          more than 4 metres. To minimise earth movement during excavation,
-          Totem positioned the building on a raised “L”-shaped platform,
-          extending the garden over the remaining uneven portion of the site.
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-          cupiditate dolor distinctio praesentium non aliquid optio repellat
-          modi deserunt consequuntur.
-          <br />
-          <br />
-          The elevation difference highlights the stunning infinity pool, which
-          acts as the focal point of the landscape tableau. Lorem ipsum dolor,
-          sit amet consectetur adipisicing elit. Voluptate consequatur fugit,
-          voluptatem explicabo numquam ut voluptatum velit minima. Ipsum dolorem
-          veritatis numquam cupiditate iure et?
-        </p>
+        <h1>Project Stacion</h1>
 
         <div className={styles.dateContainer}>
           <div className={styles.date}>

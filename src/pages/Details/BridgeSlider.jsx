@@ -44,14 +44,11 @@ export default function BridgeSlider({ slides }) {
       <div className={styles.details}>
         <h1>Title</h1>
         <p>
-          The Villa Camélia is a high-end private residence situated in the
-          Riviera Golf Beverly Hills neighbourhood, on a plot with a gradient of
-          more than 4 metres. To minimise earth movement during excavation,
-          Totem positioned the building on a raised “L”-shaped platform,
-          extending the garden over the remaining uneven portion of the site.
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-          cupiditate dolor distinctio praesentium non aliquid optio repellat
-          modi deserunt consequuntur.
+          The project consisted of the detailed assessment/inspection,
+          appropriate testing, structural/geotechnical/hydraulic quantitative
+          evaluation of eight (8)existing suspension bridges in accordance with
+          the requirements of this scope of work. Brides had various length from
+          50-70 m.
           <br />
           <br />
           The elevation difference highlights the stunning infinity pool, which
@@ -64,7 +61,11 @@ export default function BridgeSlider({ slides }) {
         <div className={styles.dateContainer}>
           <div className={styles.date}>
             <p>Location:</p>
-            <h1>Kosovo</h1>
+            <h1>Pakistan</h1>
+          </div>
+          <div className={styles.date}>
+            <p>Overall project value:</p>
+            <h1>Over 300000$</h1>
           </div>
           <div className={styles.date}>
             <p>Date</p>
