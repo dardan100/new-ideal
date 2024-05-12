@@ -41,7 +41,7 @@ export default function KosovCountry() {
               <Link to="/project/projectStacion">
                 <img src={img1} alt="Project Stacion" />
                 <div className={styles.content}>
-                  <h1>Project Stacion</h1>
+                  <h1 className={styles.spacing}>Project Stacion</h1>
                 </div>
               </Link>
             </div>

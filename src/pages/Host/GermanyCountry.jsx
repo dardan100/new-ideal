@@ -20,8 +20,7 @@ export default function GermanyCountry() {
               <Link to="/project/projectBadTotz">
                 <img src={img1} alt="Northern Winter Sky" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>BadTotz</h1>
                 </div>
               </Link>
             </div>
@@ -32,8 +31,7 @@ export default function GermanyCountry() {
               <Link to="/project/projectBadTotz">
                 <img src={img2} alt="" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>BadTotz</h1>
                 </div>
               </Link>
             </div>
@@ -44,8 +42,7 @@ export default function GermanyCountry() {
               <Link to="/project/projectInfrastructure">
                 <img src={img3} alt="" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Infrastructure</h1>
                 </div>
               </Link>
             </div>

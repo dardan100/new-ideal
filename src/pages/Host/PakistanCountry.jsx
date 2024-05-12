@@ -19,8 +19,7 @@ export default function PakistanCountry() {
               <Link to="/project/projectBridge">
                 <img src={img} alt="Northern Winter Sky" />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Bridge</h1>
                 </div>
               </Link>
             </div>
@@ -31,8 +30,7 @@ export default function PakistanCountry() {
               <Link to="/project/projectBridge">
                 <img src={img1} alt="Shining Stars " />
                 <div className={styles.content}>
-                  <h1>dawd</h1>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h1>Bridge</h1>
                 </div>
               </Link>
             </div>
