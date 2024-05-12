@@ -6,7 +6,7 @@ import RootLayout from "../../layouts/RootLayout";
 
 import img1 from "../../images/sc1.jpeg";
 import img2 from "../../images/sc2.jpeg";
-import img3 from "../../images/infrastructure.png";
+import img3 from "../../images/infrastructure.webp";
 
 export default function GermanyCountry() {
   return (

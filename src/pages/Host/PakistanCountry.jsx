@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import styles from "./Pakistan.module.css";
 import RootLayout from "../../layouts/RootLayout";
 
-import img from "../../images/bridge.jpg";
-import img1 from "../../images/bridge3.jpg";
+import img from "../../images/bridge.webp";
+import img1 from "../../images/bridge3.webp";
 
 export default function PakistanCountry() {
   return (
@@ -25,7 +25,6 @@ export default function PakistanCountry() {
               </Link>
             </div>
           </div>
-          
 
           <div className={`${styles.wrapper} ${styles.wideimage}`}>
             <div className={styles.image}>

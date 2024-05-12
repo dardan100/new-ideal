@@ -8,10 +8,10 @@ import RootLayout from "../layouts/RootLayout";
 
 import img1 from "../images/T1.jpg";
 import img2 from "../images/roadPic2.jpg";
-import img3 from "../images/infrastructure.png";
-import img4 from "../images/bridge.jpg";
+import img3 from "../images/infrastructure.webp";
+import img4 from "../images/bridge.webp";
 import img5 from "../images/sc2.jpeg";
-import img6 from "../images/renderatPic1.jpg";
+import img6 from "../images/renderatPic1.webp";
 
 export default function Project() {
   return (
