@@ -134,10 +134,6 @@ h3 {
     font-size: 24px;
   }
 
-  .list li::before {
-    width: 50px;
-  }
-
   .bottom-bar p {
     font-size: 14px;
   }

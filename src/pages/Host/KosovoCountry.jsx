@@ -36,7 +36,7 @@ export default function KosovCountry() {
             </div>
           </div>
 
-          <div className={`${styles.wrapper} ${styles.fourgridcells}`}>
+          <div className={`${styles.wrapper} ${styles.wideimage}`}>
             <div className={styles.image}>
               <Link to="/project/projectStacion">
                 <img src={img1} alt="Project Stacion" />

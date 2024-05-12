@@ -57,16 +57,17 @@
   flex-direction: column;
   position: absolute;
   top: 100%;
+
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.132);
-  margin-top: -60px;
+  background: rgb(252, 190, 8);
+  margin-top: -50px;
 }
 
 .bar {
   width: 30px;
   height: 3px;
-  background-color: #fff;
+  background-color: rgb(252, 190, 8);
   margin-bottom: 6px;
   transition: 0.4s;
 }
@@ -118,7 +119,7 @@
   }
   .navbar a {
     font-size: 1.2rem;
-    color: rgb(252, 190, 8);
+    color: rgb(0, 0, 0);
     margin-right: 25px;
     text-decoration: none;
     position: relative;

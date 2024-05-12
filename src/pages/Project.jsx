@@ -65,7 +65,7 @@ export default function Project() {
             </div>
           </div>
 
-          <div className={`${styles.wrapper} ${styles.wideimage}`}>
+          <div className={`${styles.wrapper} ${styles.wideimageTotz}`}>
             <div className={styles.image}>
               <Link to="projectBadTotz">
                 <img src={img5} alt="" />

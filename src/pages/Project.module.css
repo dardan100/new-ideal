@@ -72,6 +72,9 @@ img {
 .wideimage {
   grid-column: span 1 / auto;
 }
+.wideimageTotz {
+  grid-column: span 2 / auto;
+}
 
 .loader {
   border: 16px solid #f3f3f3;

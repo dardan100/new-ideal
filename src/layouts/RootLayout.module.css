@@ -4,6 +4,7 @@
 
 .links {
   display: flex;
+  margin-top: 50px;
 }
 
 .link {
@@ -83,7 +84,7 @@
 .bar {
   width: 30px;
   height: 3px;
-  background-color: #fff;
+  background-color: rgb(252, 190, 8);
   margin-bottom: 6px;
   transition: 0.4s;
 }
