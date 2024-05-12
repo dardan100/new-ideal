@@ -1,5 +1,6 @@
 import {
-  createBrowserRouter,
+  // createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -22,7 +23,7 @@ import ProjectRenderat from "./pages/Details/ProjectRenderat";
 import ProjectInfrastructure from "./pages/Details/ProjectInfrastructure";
 import PageNotFound from "./pages/PageNotFound";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route>
       <Route path="/" element={<Home />} />
