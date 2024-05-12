@@ -1,8 +1,8 @@
 import React from "react";
 import AppNav from "../../components/AppNav";
-import img1 from "../../images/bridge.jpg";
-import img2 from "../../images/bridge2.jpg";
-import img3 from "../../images/bridge3.jpg";
+import img1 from "../../images/bridge.webp";
+import img2 from "../../images/bridge2.webp";
+import img3 from "../../images/bridge3.webp";
 import BridgeSlider from "./BridgeSlider";
 
 import styles from "./ProjectBridge.module.css";

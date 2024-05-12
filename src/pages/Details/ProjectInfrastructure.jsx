@@ -2,7 +2,7 @@ import React from "react";
 import AppNav from "../../components/AppNav";
 
 import styles from "./ProjectInfrastructure.module.css";
-import img from "../../images/infrastructure.png";
+import img from "../../images/infrastructure.webp";
 import InfrastructureSlider from "./InfrastructureSlider";
 
 export default function ProjectBridge() {
