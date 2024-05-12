@@ -22,7 +22,7 @@ h1 {
 }
 
 .spacing {
-  white-space: none;
+  white-space: nowrap;
 }
 
 .image {
