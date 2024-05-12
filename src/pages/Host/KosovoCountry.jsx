@@ -17,7 +17,7 @@ export default function KosovCountry() {
           <div className={`${styles.wrapper} ${styles.fourgridcells}`}>
             <div className={styles.image}>
               <Link to="/project/projectRoads">
-                <img src={img3} alt="Road" />
+                <img src={img1} alt="Road" />
                 <div className={styles.content}>
                   <h1>Road</h1>
                 </div>
@@ -39,7 +39,7 @@ export default function KosovCountry() {
           <div className={`${styles.wrapper} ${styles.wideimage}`}>
             <div className={styles.image}>
               <Link to="/project/projectStacion">
-                <img src={img1} alt="Project Stacion" />
+                <img src={img3} alt="Project Stacion" />
                 <div className={styles.content}>
                   <h1 className={styles.spacing}>Project Stacion</h1>
                 </div>
