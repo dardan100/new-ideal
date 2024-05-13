@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Slider.module.css";
-import img2 from "../images/T1.jpg";
 import img1 from "../images/sc1.jpeg";
+import img2 from "../images/T1.jpg";
 import img3 from "../images/roadPic2.jpg";
+import img4 from "../images/T3.jpg";
 
 import { Link } from "react-router-dom";
 
 const Slider = () => {
   const [items, setItems] = useState([
-    { name: "Geramny", image: `${img1}`, des: "lorem" },
-    { name: "Kosovo", image: `${img2}`, des: "lorem ipsum" },
-    { name: "Kosovo", image: `${img3}`, des: "lorem ipsum 25" },
-    { name: "Kosovo", image: `${img2}`, des: "lorem ipsuim 32123" },
+    { name: "Geramny", image: `${img1}`, des: "BadTotz" },
+    { name: "Kosovo", image: `${img2}`, des: "Staction Sveqan" },
+    { name: "Kosovo", image: `${img3}`, des: "Road" },
+    { name: "Kosovo", image: `${img4}` },
   ]);
 
   const [currentIndex] = useState(0);
