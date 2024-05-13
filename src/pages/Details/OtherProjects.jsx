@@ -86,7 +86,7 @@ export default function OtherProjects() {
               <Link to="/project/projectStacion">
                 <img src={img1} alt="item1" className={styles.otherImg} />
                 <div className={styles.content}>
-                  <h1>{items.name1}</h1>
+                  <h1>{items[0].name1}</h1>
                 </div>
               </Link>
             </div>
@@ -97,7 +97,7 @@ export default function OtherProjects() {
               <Link to="/project/projectBadTotz">
                 <img src={img2} alt="item2" className={styles.otherImg} />
                 <div className={styles.content}>
-                  <h1>{items.name2}</h1>
+                  <h1>{items[1].name2}</h1>
                 </div>
               </Link>
             </div>
@@ -106,9 +106,9 @@ export default function OtherProjects() {
           <div className={styles.slide}>
             <div className={styles.image}>
               <Link to="/project/projectBridge">
-                <img src={img2} alt="item2" className={styles.otherImg} />
+                <img src={img4} alt="item2" className={styles.otherImg} />
                 <div className={styles.content}>
-                  <h1>{items.name2}</h1>
+                  <h1>{items[3].name4}</h1>
                 </div>
               </Link>
             </div>
@@ -119,7 +119,7 @@ export default function OtherProjects() {
               <Link to="/project/projectRoads">
                 <img src={img3} alt="item4" className={styles.otherImg} />
                 <div className={styles.content}>
-                  <h1>{items.name1}</h1>
+                  <h1>{items[2].name1}</h1>
                 </div>
               </Link>
             </div>
