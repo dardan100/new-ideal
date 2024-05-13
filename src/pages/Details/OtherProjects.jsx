@@ -119,7 +119,7 @@ export default function OtherProjects() {
               <Link to="/project/projectRoads">
                 <img src={img3} alt="item4" className={styles.otherImg} />
                 <div className={styles.content}>
-                  <h1>{items[2].name1}</h1>
+                  <h1>{items[2].name3}</h1>
                 </div>
               </Link>
             </div>
