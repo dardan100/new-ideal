@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import RootLayout from "../layouts/RootLayout";
 
-import img1 from "../images/T1.jpg";
+import img1 from "../images/T1.webp";
 import img2 from "../images/roadPic2.jpg";
 import img3 from "../images/infrastructure.webp";
 import img4 from "../images/bridge.webp";

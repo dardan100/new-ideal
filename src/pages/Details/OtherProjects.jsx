@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import img1 from "../../images/T2.jpg";
+import img1 from "../../images/T2.webp";
 import img2 from "../../images/sc1.jpeg";
 import img3 from "../../images/roadPic2.jpg";
 import img4 from "../../images/bridge.webp";

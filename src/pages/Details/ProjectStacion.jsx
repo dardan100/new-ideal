@@ -1,9 +1,9 @@
 import React from "react";
 import AppNav from "../../components/AppNav";
-import img1 from "../../images/T1.jpg";
-import img2 from "../../images/T2.jpg";
-import img3 from "../../images/T3.jpg";
-import img4 from "../../images/T4.jpg";
+import img1 from "../../images/T1.webp";
+import img2 from "../../images/T2.webp";
+import img3 from "../../images/T3.webp";
+import img4 from "../../images/T4.webp";
 
 import StacionSlider from "./StacionSlider";
 import styles from "./ProjectStacion.module.css";
